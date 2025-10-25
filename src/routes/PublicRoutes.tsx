@@ -1,5 +1,5 @@
 import { type RouteObject } from "react-router-dom";
-import { PokemonsList, PokmonDetailsPage } from "../modules/pokemons/pages";
+import { PokemonsList, PokmonDetailsPage } from "@/modules/pokemons/pages";
 
 export const PublicRoutes: RouteObject[] = [
   {

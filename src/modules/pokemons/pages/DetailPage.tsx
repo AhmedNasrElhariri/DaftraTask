@@ -8,7 +8,7 @@ import {
   PokemonInfoGrid,
   PokemonStats,
   PokemonTypes,
-} from "../components";
+} from "@/modules/pokemons/components";
 
 export const PokmonDetailsPage = () => {
   const { name } = useParams<{ name: string }>();
@@ -32,7 +32,7 @@ export const PokmonDetailsPage = () => {
     );
 
   return (
-    <div className="py-10 bg-gradient-to-r from-pink-200 to-purple-300 min-h-screen">
+    <div className="py-10 bg-gradient-to-r from-pink-100 to-purple-100 min-h-screen">
       <button
         onClick={onBack}
         className="w-fit rounded-lg flex items-center gap-1 bg-white border border-1 border-gray-200 text-black hover:text-gray-900 mb-6 font-medium ml-[10%] p-2"

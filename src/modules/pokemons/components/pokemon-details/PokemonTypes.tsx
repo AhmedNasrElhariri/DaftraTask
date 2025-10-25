@@ -21,7 +21,7 @@ export const PokemonTypes = ({
         {types.map(({ type }) => (
           <span
             key={type.name}
-            className={`px-6 py-2 rounded-full text-white font-medium capitalize bg-gradient-to-r ${
+            className={`px-2 py-1 rounded-2xl text-white font-medium capitalize bg-gradient-to-r ${
               typeColors[type.name] || "from-gray-400 to-gray-600"
             }`}
           >

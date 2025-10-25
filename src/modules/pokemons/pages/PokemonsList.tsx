@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import { LoadMoreView, PaginationView } from "../components";
+import { LoadMoreView, PaginationView } from "@/modules/pokemons/components";
 
 export function PokemonsList() {
   const [view, setView] = useState<"pagination" | "loadmore">("pagination");
